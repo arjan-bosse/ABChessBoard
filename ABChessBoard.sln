@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABChessEngine", "ABChessEngine\ABChessEngine.csproj", "{2BCA0C20-2782-40E2-A9A5-E9D17A7991DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6B955731-DABA-4D00-B5E6-B00BE6550C72} = {6B955731-DABA-4D00-B5E6-B00BE6550C72}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABChessBoard", "ABChessBoard\ABChessBoard.csproj", "{46A46B26-B359-46F3-AB6C-178869274BF8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2BCA0C20-2782-40E2-A9A5-E9D17A7991DA} = {2BCA0C20-2782-40E2-A9A5-E9D17A7991DA}
+		{6B955731-DABA-4D00-B5E6-B00BE6550C72} = {6B955731-DABA-4D00-B5E6-B00BE6550C72}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ABChessCommon", "ABChessCommon\ABChessCommon.csproj", "{6B955731-DABA-4D00-B5E6-B00BE6550C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BCA0C20-2782-40E2-A9A5-E9D17A7991DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BCA0C20-2782-40E2-A9A5-E9D17A7991DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BCA0C20-2782-40E2-A9A5-E9D17A7991DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BCA0C20-2782-40E2-A9A5-E9D17A7991DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A46B26-B359-46F3-AB6C-178869274BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A46B26-B359-46F3-AB6C-178869274BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A46B26-B359-46F3-AB6C-178869274BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A46B26-B359-46F3-AB6C-178869274BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B955731-DABA-4D00-B5E6-B00BE6550C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B955731-DABA-4D00-B5E6-B00BE6550C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B955731-DABA-4D00-B5E6-B00BE6550C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B955731-DABA-4D00-B5E6-B00BE6550C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
